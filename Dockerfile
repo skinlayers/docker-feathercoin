@@ -1,4 +1,5 @@
 FROM ubuntu:xenial
+LABEL maintainer="skinlayers@gmail.com"
 
 ENV RPCUSER feathercoinrpc
 ENV RPCPASSWORD OVERRIDE_ME
